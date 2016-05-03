@@ -1,4 +1,4 @@
-# Learn Ruby The HardWay
+# Learn Ruby The Hard Way
 :book: Going through exercise 1 - 52 dictated in the book
 
 
