@@ -15,7 +15,7 @@ end
 cities[:find] = method(:find_city)
 
 while true
-  print "State?" (ENTER to quit)
+  print "State? (ENTER to quit)"
   state = gets.chomp
 
   break if state.empty?
