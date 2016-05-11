@@ -58,7 +58,8 @@ class Game
       room = method(next_room)
       next_room = room.call()
     end
-    
+  end
+  
     def death()
       puts quips[rand(quips.length())]
       Process.exit(1)
@@ -216,5 +217,6 @@ def escape_pod()
 end
 end
 
-  a_game = Game.new(:central_corridor)
-  a_game.play()
+a_game = Game.new(:central_corridor)
+a_game.play()
+  
