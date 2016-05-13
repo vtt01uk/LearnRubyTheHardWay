@@ -18,6 +18,7 @@ class AnotherGame
   def play()
      puts "@start => " + @start.inspect
      next_room = @start
+
     while true
       puts  "\n---------"
       room = method(next_room)
